@@ -1,0 +1,7 @@
+version: '3'
+services:
+  frontend:
+    build: ./frontend
+    image: "expense_analyzer/frontend"
+    ports:
+    - "8080:8080"
