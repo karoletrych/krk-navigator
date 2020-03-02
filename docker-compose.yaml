@@ -5,3 +5,4 @@ services:
     image: "expense_analyzer/frontend"
     ports:
     - "8080:8080"
+ 

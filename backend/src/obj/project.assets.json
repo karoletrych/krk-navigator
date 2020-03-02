@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\expense_analyzer\\expense_analyzer.csproj",
+      "projectUniqueName": "C:\\dev\\expense_analyzer\\backend\\src\\expense_analyzer.csproj",
       "projectName": "expense_analyzer",
-      "projectPath": "C:\\dev\\expense_analyzer\\expense_analyzer.csproj",
+      "projectPath": "C:\\dev\\expense_analyzer\\backend\\src\\expense_analyzer.csproj",
       "packagesPath": "C:\\Users\\karol\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\expense_analyzer\\obj\\",
+      "outputPath": "C:\\dev\\expense_analyzer\\backend\\src\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
