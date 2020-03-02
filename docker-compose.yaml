@@ -5,4 +5,8 @@ services:
     image: "expense_analyzer/frontend"
     ports:
     - "8080:8080"
- 
+  api:
+    build: ./api
+    image: "expense_analyzer/api"
+    ports:
+    - "5000:5000"
