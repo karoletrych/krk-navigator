@@ -9,7 +9,6 @@ services:
     build: ./api
     image: "expense_analyzer/api"
     ports:
-    - 5000:80
     - 5001:443 
     volumes: 
       - /home/karol/certs/localhost.pfx:/cert/localhost.pfx
