@@ -5,6 +5,8 @@ services:
     image: "expense_analyzer/frontend"
     ports:
     - 8000:80
+    volumes: 
+    - ./nginx.conf:/etc/nginx/nginx.conf:ro
   api:
     build: ./api
     image: "expense_analyzer/api"
